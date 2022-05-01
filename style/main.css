@@ -1,0 +1,140 @@
+:root{
+  --vermelho:#e50914;
+  --cinza: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Base */
+
+body{
+  background: var(--cinza);
+  font-family: 'Arial', Times, serif;
+  color: white;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  margin-left: 0;
+  width: 100%;
+  z-index: 10000;
+  background-color: var(--cinza);
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+
+header .logo{
+  margin: 1rem 1rem 1rem 4rem;
+  width: 200px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #aaa;
+  margin: 0 1rem;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/* Filme Principal*/
+
+.filme-principal{
+  font-size:16px;
+  background: linear-gradient(90deg,rgba(0,0,0,.70),rgba(0,0,0,.30) 100%),  url('/img/legends-arceus-capa.jpg');
+  height:650px;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.titulo{
+  margin-bottom: 1rem;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 2rem;
+}
+
+.filme-principal .container{
+  width: 60%;
+}
+
+.box-filme{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.carrosel-filmes{
+  margin-top: 5px;
+}
+
+.titulo-jogos{
+  text-align: center;
+  margin: 1rem 2rem ;
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.rodape{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  background-color: black;
+  padding: 15px 0;
+}
+
+.rodape p{
+  margin-top: 25px;
+  text-align: end;
+  margin-right: 15px;
+}
+
+.rodape p a{
+  color: gray;
+}
+
+.back-to-top img{
+  height: 80px;
+}
