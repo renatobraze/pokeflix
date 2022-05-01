@@ -56,7 +56,7 @@ header nav a:hover{
 
 .filme-principal{
   font-size:16px;
-  background: linear-gradient(90deg,rgba(0,0,0,.70),rgba(0,0,0,.30) 100%),  url('/img/legends-arceus-capa.jpg');
+  background: linear-gradient(90deg,rgba(0,0,0,.70),rgba(0,0,0,.30) 100%),  url(/img/legends-arceus-capa.jpg);
   height:650px;
   background-size:cover;
   display: flex;
